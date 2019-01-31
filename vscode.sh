@@ -1,0 +1,37 @@
+#!/bin/bash
+
+code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension GrapeCity.gc-excelviewer
+code --install-extension PKief.material-icon-theme
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension abusaidm.html-snippets
+code --install-extension adamhartford.vscode-base64
+code --install-extension akmittal.hugofy
+code --install-extension anseki.vscode-color
+code --install-extension christian-kohler.npm-intellisense
+code --install-extension dbaeumer.jshint
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.githistory
+code --install-extension eamodio.gitlens
+code --install-extension eg2.tslint
+code --install-extension eg2.vscode-npm-script
+code --install-extension esbenp.prettier-vscode
+code --install-extension felipecaputo.git-project-manager
+code --install-extension idleberg.emoji-code
+code --install-extension joelday.docthis
+code --install-extension jvandyke.vscode-circleci
+code --install-extension lukehoban.Go
+code --install-extension mdickin.markdown-shortcuts
+code --install-extension minhthai.vscode-todo-parser
+code --install-extension mitchdenny.ecdc
+code --install-extension mkaufman.HTMLHint
+code --install-extension ms-vscode.PowerShell
+code --install-extension ms-vscode.Theme-MarkdownKit
+code --install-extension ms-vsts.team
+code --install-extension raymondcamden.htmlescape-vscode-extension
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension ronnidc.nunjucks
+code --install-extension seanmcbreen.MDTools
+code --install-extension shuworks.vscode-table-formatter
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension wix.vscode-import-cost

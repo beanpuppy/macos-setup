@@ -1,2 +1,2 @@
 # macos-setup
-MACOS SETUP
+Restore MacOS setup.
