@@ -30,6 +30,7 @@ cask "discord"
 cask "balenaetcher"
 cask "nextcloud"
 cask "iina"
+cask "macmediakeyforwarder"
 
 # Brews
 brew "mackup"
