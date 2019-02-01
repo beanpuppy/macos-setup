@@ -11,3 +11,6 @@ source shell.sh
 
 # Setup vscode
 source vscode.sh
+
+# Setup linters
+source linters.sh
