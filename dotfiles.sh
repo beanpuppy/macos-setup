@@ -1,10 +1,6 @@
 #!/bin/bash
 
-if [[ ! -d "~/dotfiles" ]]; then
-  git clone https://github.com/beanpuppy/dotfiles.git ~/dotfiles
-fi
-
-~/dotfiles/install.sh
+curl https://raw.githubusercontent.com/beanpuppy/dotfiles/master/ninstall.sh | /bin/bash
 
 # Retore mackup
 mackup restore -f
