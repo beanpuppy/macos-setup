@@ -9,6 +9,7 @@ mas "Bear", id: 1091189122
 
 # Casks
 cask "hyper"
+cask "osxfuse"
 cask "visual-studio-code"
 cask "homebrew/cask-versions/firefox-developer-edition"
 cask "spotify"
@@ -32,6 +33,7 @@ cask "balenaetcher"
 cask "nextcloud"
 cask "iina"
 cask "macmediakeyforwarder"
+cask "veracrypt"
 
 # Brews
 brew "mackup"
@@ -43,7 +45,8 @@ brew "asciinema"
 brew "ctags"
 brew "prisma"
 brew "neovim"
-brew "mysql"
+brew "mariadb"
+brew "mongodb"
 brew "python"
 brew "python3"
 brew "fswatch"
