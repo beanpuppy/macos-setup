@@ -2,6 +2,7 @@ cask_args appdir: "/Applications"
 
 tap "heroku/brew"
 tap "prisma/prisma"
+tap "caskroom/fonts"
 
 # Mas-cli
 mas "LiveReload", id: 482898991
@@ -10,6 +11,7 @@ mas "Bear", id: 1091189122
 # Casks
 cask "hyper"
 cask "osxfuse"
+cask "sshfs"
 cask "visual-studio-code"
 cask "homebrew/cask-versions/firefox-developer-edition"
 cask "spotify"
@@ -34,6 +36,9 @@ cask "nextcloud"
 cask "iina"
 cask "macmediakeyforwarder"
 cask "veracrypt"
+
+# Fonts
+cask "font-hack-nerd-font"
 
 # Brews
 brew "mackup"
