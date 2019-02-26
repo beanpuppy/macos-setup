@@ -57,6 +57,7 @@ brew "python3"
 brew "fswatch"
 brew "node"
 brew "shellcheck"
+brew "the_silver_searcher"
 
 # Install some CTF tools
 brew "aircrack-ng"
