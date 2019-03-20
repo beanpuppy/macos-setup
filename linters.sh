@@ -5,5 +5,9 @@ npm install -g eslint
 python3 -m pip install flake8
 python -m pip install flake8
 
-# Markdown (sort of) - write-good
-npm install -g write-good
+# Markdown
+npm install -g alex
+npm install -g vale
+
+# HTML
+npm install -g htmlhint
