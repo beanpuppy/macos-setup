@@ -16,9 +16,9 @@ scutil --set LocalHostName MacBook
 /usr/libexec/ApplicationFirewall/socketfilterfw --setstealthmode on  # Enable stealth mode
 
 # MalwareDomainList.com Hosts File
-curl -o /etc/hosts https://www.malwaredomainlist.com/hostslist/hosts.txt
+curl -o /etc/hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 # create cron job to update every week
-crontab -l | { cat; echo "0 12 * * 4 curl -o /etc/hosts https://www.malwaredomainlist.com/hostslist/hosts.txt"; } | crontab -
+crontab -l | { cat; echo "0 12 * * 4 curl -o /etc/hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"; } | crontab -
 
 # Captive Portal
 # When macOS connects to new networks, it checks for Internet connectivity and may launch a Captive Portal assistant utility application.
