@@ -3,10 +3,12 @@ cask_args appdir: "/Applications"
 tap "heroku/brew"
 tap "prisma/prisma"
 tap "caskroom/fonts"
+tap "universal-ctags/universal-ctags"
 
 # Mas-cli
 mas "LiveReload", id: 482898991
 mas "Bear", id: 1091189122
+mas "Fenêtre", id: 1286743037
 
 # Casks
 cask "hyper"
@@ -36,6 +38,9 @@ cask "nextcloud"
 cask "iina"
 cask "macmediakeyforwarder"
 cask "veracrypt"
+cask "gitter"
+cask "amethyst"
+cask "signal"
 
 # Fonts
 cask "font-hack-nerd-font"
@@ -47,7 +52,6 @@ brew "wget"
 brew "vim"
 brew "heroku/brew/heroku"
 brew "asciinema"
-brew "ctags"
 brew "prisma"
 brew "neovim"
 brew "mariadb"
@@ -58,6 +62,9 @@ brew "fswatch"
 brew "node"
 brew "shellcheck"
 brew "the_silver_searcher"
+brew "weechat"
+brew "universal-ctags"
+brew "cscope"
 
 # Install some CTF tools
 brew "aircrack-ng"
