@@ -6,6 +6,13 @@
 # iOS, The Future Of macOS, Freedom, Security And Privacy In An Increasingly Hostile Global Environment:
 # https://gist.github.com/iosecure/357e724811fe04167332ef54e736670d
 
+if [ "$EUID" -ne 0 ]
+    then echo "Please run as root/sudo"
+    exit
+fi
+
+cd $(dirname $0)
+
 # Change localhost and computer name
 scutil --set ComputerName MacBook
 scutil --set LocalHostName MacBook
@@ -16,9 +23,9 @@ scutil --set LocalHostName MacBook
 /usr/libexec/ApplicationFirewall/socketfilterfw --setstealthmode on  # Enable stealth mode
 
 # MalwareDomainList.com Hosts File
-curl -o /etc/hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+./hosts/set-hosts.sh
 # create cron job to update every week
-crontab -l | { cat; echo "0 12 * * 4 curl -o /etc/hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"; } | crontab -
+crontab -l | { cat; echo "0 12 * * 4 bash $PWD/hosts/set-hosts.sh"; } | crontab -
 
 # Captive Portal
 # When macOS connects to new networks, it checks for Internet connectivity and may launch a Captive Portal assistant utility application.
