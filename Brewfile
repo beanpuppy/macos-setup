@@ -65,6 +65,10 @@ brew "the_silver_searcher"
 brew "weechat"
 brew "universal-ctags"
 brew "cscope"
+brew "fzf"
+brew "bitwarden-cli"
+brew "jq"
+brew "xclip"
 
 # Install some CTF tools
 brew "aircrack-ng"
